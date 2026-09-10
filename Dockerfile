@@ -56,4 +56,5 @@ RUN mkdir -p /data && chmod 777 /data
 # those raw-TCP ports publicly when needed.
 EXPOSE 8000 443 992 5555
 
-CMD ["/entrypoint.sh"]
+CMD ["sh", "/entrypoint.sh"]
+
